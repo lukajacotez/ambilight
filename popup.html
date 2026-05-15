@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ambilight</title>
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    .testbar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 7px;
+      z-index: 2147483647;
+      pointer-events: none;
+      transition: all 0.4s ease;
+      background: #00f3ff;
+      box-shadow:
+        0 0 4px #00f3ff,
+        0 0 10px #00f3ff,
+        0 0 20px #00f3ff,
+        0 0 40px #00f3ff;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="menu" role="dialog" aria-label="Menu Ambilight">
+
+    <div class="menu-header">
+      <span class="menu-title">Ambilight <span class="by">by lowkyz</span></span>
+      <label class="toggle-switch" title="Activer / Désactiver">
+        <input type="checkbox" id="enableToggle" checked>
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="menu-content">
+
+      <div class="color-preview-zone" id="previewZone">
+        <span class="color-hex-label" id="hexDisplay">#567923</span>
+        <div class="ambi-bar" id="previewBar"></div>
+      </div>
+
+      <p class="menu-subtitle">Couleur de l'ambilight sur toutes les pages</p>
+
+      <div class="color-grid" id="colorGrid"></div>
+
+      <div class="custom-row">
+        <label>Perso</label>
+        <input type="color" id="customColor" value="#567923">
+        <input type="text" id="hexInput" value="#567923" placeholder="#RRGGBB" maxlength="7">
+        <button class="apply-btn" id="applyCustom">Appliquer</button>
+      </div>
+    </div>
+
+    <div class="menu-footer">
+      <span class="footer-note">Ambilight actif sur toutes les pages</span>
+    </div>
+  </div>
+
+  <!-- <div class="testbar"></div> -->
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
