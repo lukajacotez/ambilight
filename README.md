@@ -17,10 +17,8 @@ Puisque l'extension est en cours de développement, vous devez l'installer manue
 5. Sélectionnez le dossier racine de votre projet (celui qui contient le fichier `manifest.json`).
 
 ### Mozilla Firefox
-1. Ouvrez Firefox et accédez à l'adresse : `about:debugging#/runtime/this-firefox`.
-2. Cliquez sur le bouton **Charger un module complémentaire temporaire...**.
-3. Sélectionnez le fichier `manifest.json` dans le dossier de l'extension.
-4. *Note : Firefox désactive les extensions non signées à chaque redémarrage. Vous devrez répéter cette opération pour tester à nouveau.*
+- Mon extension AmbilightL est disponible au public sur la page d'extension de Firefox.
+- Voici le lien pour télécharger mon extension : https://addons.mozilla.org/fr/firefox/addon/ambilightl/
 
 ## Technologies
 - JavaScript / Chrome API
@@ -33,4 +31,4 @@ Puisque l'extension est en cours de développement, vous devez l'installer manue
 ---
 Développé par [lowkyz]
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Flukajacotez%2Fambilight&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+![Compteur de vues](https://profile-counter.glitch.me/lukajacotez/ambilight/count.svg)
