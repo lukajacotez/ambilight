@@ -77,12 +77,12 @@ body {
   transition: transform 0.25s, background 0.25s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background: rgba(87, 121, 35, 0.6);
   border-color: rgba(87, 121, 35, 0.8);
 }
 
-input:checked + .slider::before {
+input:checked+.slider::before {
   transform: translateX(18px);
   background: #fff;
 }
@@ -190,7 +190,10 @@ input:checked + .slider::before {
   flex-shrink: 0;
 }
 
-#customColor::-webkit-color-swatch-wrapper { padding: 0; }
+#customColor::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
 #customColor::-webkit-color-swatch {
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.2);
