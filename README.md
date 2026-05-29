@@ -31,4 +31,5 @@ Puisque l'extension est en cours de développement, vous devez l'installer manue
 ---
 Développé par [lowkyz]
 
-![Compteur de vues](https://profile-counter.glitch.me/lukajacotez/ambilight/count.svg)
+<img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Flukajacotez%2Fambilight&label=Vues&icon=disc-fill&color=%23111111&message=&style=flat&tz=Europe%2FParis">
+
